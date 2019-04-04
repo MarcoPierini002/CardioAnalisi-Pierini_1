@@ -10,11 +10,16 @@ namespace CardioLibrary
     {
         public static void Metodo_1()
         {
-            int frequenzamassima = 0;
+            int frequenzaMassima = 0;
+            int numeroBattiti = 0;
             int eta = 0;
             Console.WriteLine("inerisci l'eta");
             eta = Convert.ToInt32(Console.ReadLine());
-            frequenzamassima = eta - 220;
+            frequenzaMassima = eta - 220;
+            Console.WriteLine("inerisci il numero dei tuoi battiti");
+            numeroBattiti = Convert.ToInt32(Console.ReadLine());
+
+
 
         }
             
